@@ -1,6 +1,6 @@
 import { PanelPlugin } from '@grafana/data';
 import { SimpleOptions } from './types';
-import { BasicFormPanel } from './components/Form';
+import { BasicFormPanel } from './FormPanel';
 import { CustomOptionsEditor } from './components/Options';
 
 export const plugin = new PanelPlugin<SimpleOptions>(BasicFormPanel).setPanelOptions((builder) => {
