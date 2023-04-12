@@ -1,0 +1,29 @@
+{
+  "type": "app",
+  "name": "Peresvet",
+  "id": "mp-co-peresvet-app",
+  "info": {
+    "description": "Peresvet plugin for Grafana",
+    "author": {
+      "name": "Match Point consulting",
+      "url": ""
+    },
+    "keywords": ["peresvet"],
+    "logos": {},
+    "links": [],
+    "screenshots": [],
+    "version": "1.0",
+    "updated": "2023-04-05"
+  },
+  "includes": [
+    {
+      "type": "panel",
+      "name": "Basic Form panel"
+    }
+  ],
+  "dependencies": {
+    "grafanaDependency": ">=9.0.0",
+    "grafanaVersion": "9.0",
+    "plugins": []
+  }
+}
