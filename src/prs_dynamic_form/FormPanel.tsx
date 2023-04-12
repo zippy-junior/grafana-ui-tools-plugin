@@ -25,7 +25,7 @@ export const BasicFormPanel: React.FC<PanelProps> = ({ options, id, data, width,
             return (
               <Form.Field>
                 <label>{row.fieldName}</label>
-                <input placeholder={row.dataType} />
+                <input placeholder={row.fieldName} />
               </Form.Field>
             );
           case 'date':
